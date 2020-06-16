@@ -4,5 +4,5 @@ set -eu
 if [ "${DOCKER_TAG}" = "latest" ]; then
   LIZARD_VERSION=$(docker run ${IMAGE_NAME} --version)
   docker tag ${IMAGE_NAME} ${DOCKER_REPO}:${LIZARD_VERSION}
-  docker push ${DOCKER_REPO}:git2go-v${LIZARD_VERSION}
+  docker push ${DOCKER_REPO}:${LIZARD_VERSION}
 fi
