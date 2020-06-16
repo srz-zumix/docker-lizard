@@ -1,6 +1,6 @@
 # docker-lizard
 
-[![Docker Build Status](https://img.shields.io/docker/build/srzzumix/lizard.svg)](https://hub.docker.com/r/srzzumix/lizard/)
+[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/srzzumix/lizard.svg)](https://hub.docker.com/r/srzzumix/lizard/)
 [![PyPI version](https://badge.fury.io/py/lizard.svg)](https://badge.fury.io/py/lizard)
 
 Dockerized lizard
