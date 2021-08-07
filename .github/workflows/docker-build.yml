@@ -20,7 +20,7 @@ jobs:
       - name: Push to version tag
         env:
           DOCKER_TAG: latest
-          IMAGE_NAME: srzzumix/lizard
+          IMAGE_NAME: srzzumix/lizard:latest
           DOCKER_REPO: srzzumix/lizard
         run: |
           ./hooks/post_push
